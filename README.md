@@ -7,10 +7,12 @@ Daily coding practice and problem-solving on LeetCode.
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Rohit-999k/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+| [0033-search-in-rotated-sorted-array](https://github.com/Rohit-999k/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 ## Binary Search
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Rohit-999k/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+| [0033-search-in-rotated-sorted-array](https://github.com/Rohit-999k/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 ## Divide and Conquer
 |  |
 | ------- |
