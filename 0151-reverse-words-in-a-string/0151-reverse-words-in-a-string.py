@@ -1,9 +1,9 @@
 class Solution:
     def reverseWords(self, s: str) -> str:
-        k = s.strip().split()
+        s = s.strip().split()
         r = ""
-        for i in range(len(k)-1,-1,-1):
-            r += k[i] + " "
+        for i in range(len(s)-1,-1,-1):
+            r += s[i] + " "
         
         return r.strip()
 
