@@ -1,10 +1,10 @@
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
-        left,right=0,len(numbers)-1
-        while(left<right):
-            if numbers[left]+numbers[right]==target:
-                return [left+1,right+1]
-            elif numbers[left]+numbers[right]<target:
-                left+=1
+        lb,ub=0,len(numbers)-1
+        while(lb<ub):
+            if numbers[lb]+numbers[ub]==target:
+                return [lb+1,ub+1]
+            elif numbers[lb]+numbers[ub]<target:
+                lb+=1
             else:
-                right-=1
+                ub-=1
