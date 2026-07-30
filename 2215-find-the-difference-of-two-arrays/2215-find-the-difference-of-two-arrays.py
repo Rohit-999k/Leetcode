@@ -1,6 +1,3 @@
 class Solution(object):
     def findDifference(self, nums1, nums2):
-        a= set(nums1)
-        b = set(nums2)
-        
-        return list(a-b),list(b-a)
+        return list(set(nums1)-set(nums2)),list(set(nums2)-set(nums1))
