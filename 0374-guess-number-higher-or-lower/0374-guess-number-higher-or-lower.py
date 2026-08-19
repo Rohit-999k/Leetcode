@@ -7,10 +7,6 @@
 
 class Solution(object):
     def guessNumber(self, n):
-        if guess(1) == 0:
-            return 1
-        elif guess(n) == 0:
-            return n
         lb = 1
         ub = n
         while(lb<ub):
