@@ -1,6 +1,8 @@
 class Solution(object):
     def missingMultiple(self, nums, k):
-        for i in range(1,1001):
+        i=1
+        while i<=101:
             if i*k not in nums:
                 return i*k
+            i+=1
         
