@@ -1,11 +1,9 @@
-import numpy as np
-
 class Solution(object):
     def productExceptSelf(self, nums):
-        if nums.count(0)==len(nums):
+
+        if nums.count(0)>1:
+            nums[:] = [0] * len(nums)
             return nums
-        elif nums.count(0)>1:
-            return list(np.zeros((len(nums),), dtype=np.int_))
 
         if 0 in nums:
             m = 1
