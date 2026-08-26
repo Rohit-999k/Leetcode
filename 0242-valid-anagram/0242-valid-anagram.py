@@ -3,11 +3,11 @@ class Solution(object):
         if len(s)!=len(t):
             return False
         
-        checked = ""
+        checked = set()
         for i in s:
             if i in checked:
                 continue
-            checked+=i
+            checked.add(i)
 
             if s.count(i)!=t.count(i):
                 return False
