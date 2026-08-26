@@ -1,6 +1,6 @@
 class Solution(object):
     def isPowerOfTwo(self, n):
-        if n==0:
+        if n<=0:
             return False
         while(n!=0):
             if n%2!=0 and n!=1:
