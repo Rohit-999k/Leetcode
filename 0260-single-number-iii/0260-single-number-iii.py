@@ -1,5 +1,7 @@
 class Solution(object):
     def singleNumber(self, nums):
+        if len(nums)==2:
+            return nums
         total = 0
         for i in nums:
             total ^= i
