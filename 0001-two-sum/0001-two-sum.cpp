@@ -15,7 +15,7 @@ public:
             }
         }
 
-        vector<int> val = {i,j};
-        return val;
+        return {i,j};
+        
     }
 };
